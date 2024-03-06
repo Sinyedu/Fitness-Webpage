@@ -1,0 +1,189 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body {
+    font-family: 'ABeeZee', sans-serif !important;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'ABeeZee', sans-serif !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-weight-italic {
+    margin: 0 auto; /* Center the paragraph */
+    max-width: 800px; /* Set a maximum width */
+    padding: 0 20px; /* Add padding to the sides */
+}
+
+.nav-item {
+    border-right: 1px solid #ccc; /* Add border between nav items */
+}
+.nav-item:last-child {
+    border-right: none; /* Remove border from last nav item */
+}
+
+.navbar-custom {
+    background-color: rgb(143, 74, 74) !important;
+    color: white !important;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.navbar-brand:hover {
+    color: rgb(77, 75, 66) !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: rgb(77, 75, 66) !important;
+}
+
+.blurry-image {
+    filter: grayscale(100%);
+}
+
+.heroimage {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.heroimage h1 {
+    position: absolute;
+    letter-spacing: 0.5rem;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+    font-size: 4.2rem;
+    background-image: linear-gradient(to right, #d41010, #694242);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+  }
+
+.heroimage p {
+    position: absolute;
+    letter-spacing: 0.2rem;
+    top: 16%;
+    left: 57%;
+    scale: 1.6;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+    font-size: 1.5rem;
+    background-image: linear-gradient(to right, #694242, #d41010);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+}
+
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+    .heroimage h1 {
+        left: 50%;
+        top: 15%; /* Adjust top position for mobile */
+        font-size: 2rem; /* Adjust font size for mobile */
+    }
+
+    .heroimage p {
+        left: 60%; /* Adjust left position for mobile */
+        top: 44%; /* Adjust top position for mobile */
+        font-size: 1rem; /* Adjust font size for mobile */
+        max-width: 1000px;
+    }
+}
+
+.personaltrainers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.training {
+    display: grid;
+    justify-items: center;
+}
+  
+.trainer-info {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+    display: flex;
+    align-items: center;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+.trainer-info img {
+    width: 500px; /* Adjust as needed */
+    margin-right: 20px; /* Add some space between the image and text */
+}
+.trainer-info.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+.left-align {
+    order: -1;
+}
+  
+.right-align {
+    order: 1;
+}
+  
+.trainer-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.imgalign {
+margin-left: -20px;
+}
+.imgalign2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 110px;
+}
+
+.textalign {
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .trainer-info {
+      flex-direction: column; /* Stack elements vertically on small screens */
+    }
+  
+    .trainer-info img {
+      margin-right: 0; /* Remove margin on small screens */
+      margin-bottom: 10px; /* Add some space between image and text on small screens */
+    }
+  }
+
+  @media (max-width: 767px) {
+    .textalign h1.font-weight-bold {
+        text-align: center;
+    }
+    .imgalign2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+}
+
+.text-center2 {
+    text-align: center!important;
+}
