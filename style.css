@@ -65,24 +65,25 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.5rem;
     top: 10%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-20%, 80%);
     z-index: 1; 
     font-size: 4.2rem;
     background-image: linear-gradient(to right, #d41010, #694242);
     -webkit-background-clip: text; 
     background-clip: text;
     color: transparent;
+    max-width: 5000px;
   }
 
 .heroimage p {
     position: absolute;
     letter-spacing: 0.2rem;
-    top: 16%;
-    left: 57%;
+    top: 25%;
+    left: 72%;
     scale: 1.6;
     transform: translate(-50%, -50%);
     z-index: 1; 
-    font-size: 1.5rem;
+    font-size: 2rem;
     background-image: linear-gradient(to right, #694242, #d41010);
     -webkit-background-clip: text; 
     background-clip: text;
@@ -93,12 +94,15 @@ h1, h2, h3, h4, h5, h6 {
 /* Media query for mobile devices */
 @media only screen and (max-width: 768px) {
     .heroimage h1 {
-        left: 50%;
-        top: 15%; /* Adjust top position for mobile */
-        font-size: 2rem; /* Adjust font size for mobile */
+        transform: translate(-49%, -20%);
+        left: 57%;
+        top: 50%; /* Adjust top position for mobile */
+        font-size: 2.35rem; /* Adjust font size for mobile */
+        scale: 1.15;
     }
 
     .heroimage p {
+        opacity: 0;
         left: 60%; /* Adjust left position for mobile */
         top: 44%; /* Adjust top position for mobile */
         font-size: 1rem; /* Adjust font size for mobile */
@@ -186,4 +190,10 @@ margin-left: -20px;
 
 .text-center2 {
     text-align: center!important;
+}
+
+@media (max-width: 767px) {
+    .navbarfit {
+        margin-left: 10px;
+    }
 }
