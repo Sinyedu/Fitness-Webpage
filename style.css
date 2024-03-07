@@ -151,9 +151,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     margin-bottom: 20px;
 }
-.imgalign {
-margin-left: -20px;
-}
+
 .imgalign2 {
     display: flex;
     justify-content: center;
