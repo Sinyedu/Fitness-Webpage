@@ -17,16 +17,16 @@ h1, h2, h3, h4, h5, h6 {
     box-sizing: border-box;
 }
 .font-weight-italic {
-    margin: 0 auto; /* Center the paragraph */
-    max-width: 800px; /* Set a maximum width */
-    padding: 0 20px; /* Add padding to the sides */
+    margin: 0 auto; 
+    max-width: 800px; 
+    padding: 0 20px; 
 }
 
 .nav-item {
-    border-right: 1px solid #ccc; /* Add border between nav items */
+    border-right: 1px solid #ccc; 
 }
 .nav-item:last-child {
-    border-right: none; /* Remove border from last nav item */
+    border-right: none; 
 }
 
 .navbar-custom {
@@ -90,22 +90,20 @@ h1, h2, h3, h4, h5, h6 {
     color: transparent;
 }
 
-
-/* Media query for mobile devices */
 @media only screen and (max-width: 768px) {
     .heroimage h1 {
         transform: translate(-49%, -20%);
         left: 57%;
-        top: 50%; /* Adjust top position for mobile */
-        font-size: 2.35rem; /* Adjust font size for mobile */
+        top: 50%; 
+        font-size: 2.35rem;/
         scale: 1.15;
     }
 
     .heroimage p {
         opacity: 0;
-        left: 60%; /* Adjust left position for mobile */
-        top: 44%; /* Adjust top position for mobile */
-        font-size: 1rem; /* Adjust font size for mobile */
+        left: 60%; 
+        top: 44%; 
+        font-size: 1rem; 
         max-width: 1000px;
     }
 }
@@ -131,8 +129,8 @@ h1, h2, h3, h4, h5, h6 {
     gap: 20px;
 }
 .trainer-info img {
-    width: 500px; /* Adjust as needed */
-    margin-right: 20px; /* Add some space between the image and text */
+    width: 500px; 
+    margin-right: 20px; 
 }
 .trainer-info.fade-in {
     opacity: 1;
@@ -165,12 +163,12 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 767px) {
     .trainer-info {
-      flex-direction: column; /* Stack elements vertically on small screens */
+      flex-direction: column; 
     }
   
     .trainer-info img {
-      margin-right: 0; /* Remove margin on small screens */
-      margin-bottom: 10px; /* Add some space between image and text on small screens */
+      margin-right: 0; 
+      margin-bottom: 10px; 
     }
   }
 
