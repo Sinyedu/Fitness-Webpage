@@ -22,6 +22,13 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 20px; 
 }
 
+.font-weight-bold {
+    margin: 0 auto; 
+    max-width: 800px; 
+    padding: 0 20px; 
+    font-weight: 900!important;
+
+}
 .nav-item {
     border-right: 1px solid #ccc; 
 }
@@ -63,12 +70,12 @@ h1, h2, h3, h4, h5, h6 {
 .heroimage h1 {
     position: absolute;
     letter-spacing: 0.5rem;
-    top: 10%;
-    left: 50%;
+    top: 5%;
+    left: 46.2%;
     transform: translate(-20%, 80%);
     z-index: 1; 
     font-size: 4.2rem;
-    background-image: linear-gradient(to right, #d41010, #694242);
+    background-image: linear-gradient(to right, #d41010, #7c5e5e);
     -webkit-background-clip: text; 
     background-clip: text;
     color: transparent;
@@ -79,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     letter-spacing: 0.2rem;
     top: 25%;
-    left: 72%;
+    left: 71%;
     scale: 1.6;
     transform: translate(-50%, -50%);
     z-index: 1; 
@@ -95,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
         transform: translate(-49%, -20%);
         left: 57%;
         top: 50%; 
-        font-size: 2.35rem;/
+        font-size: 2.35rem;
         scale: 1.15;
     }
 
